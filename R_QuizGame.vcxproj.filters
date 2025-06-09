@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\R_QuizGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\R_QuizGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\R_QuizGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\R_QuizGame">
+      <UniqueIdentifier>{24D6CBD7-9F72-3694-801A-2B8C072F85F9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\R_QuizGame\R_QuizGame.Build.cs">
+      <Filter>Source\R_QuizGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\R_QuizGame\R_QuizGame.cpp">
+      <Filter>Source\R_QuizGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\R_QuizGame\R_QuizGame.h">
+      <Filter>Source\R_QuizGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\R_QuizGame\Private">
+      <UniqueIdentifier>{AD937D5B-48F6-3E65-A7CE-285C034953FD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\R_QuizGame\Private\QuizLogActor.cpp">
+      <Filter>Source\R_QuizGame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\R_QuizGame\Public">
+      <UniqueIdentifier>{773C9517-D2D5-352D-8E88-14E1FCAE9BC5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\R_QuizGame\Public\QuizLogActor.h">
+      <Filter>Source\R_QuizGame\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
