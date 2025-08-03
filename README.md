@@ -19,7 +19,7 @@ An AI-driven, gamified quiz system that adapts to user performance in real time.
 - Python 3.8 or newer
 - Unreal Engine 5.4
 - VaRest Plugin for UE5 (enabled from Marketplace or Plugins menu)
-- pip (Python package installer)
+- OpenTDB API
 
 ---
 
